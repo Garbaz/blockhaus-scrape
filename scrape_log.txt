@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "scrape.py", line 35, in <module>
+    time.sleep(PERIOD)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "scrape.py", line 35, in <module>
+    print(f'{time.time()},{p}',file=f)
+io.UnsupportedOperation: not writable

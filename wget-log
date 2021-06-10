@@ -1,0 +1,11 @@
+--2021-06-10 19:36:36--  https://192.webclimber.de/de/trafficlight?callback=WebclimberTrafficlight.insertTrafficlight
+Resolving 192.webclimber.de (192.webclimber.de)... 185.80.93.22
+Connecting to 192.webclimber.de (192.webclimber.de)|185.80.93.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/html]
+Saving to: ‘trafficlight?callback=WebclimberTrafficlight.insertTrafficlight’
+
+                trafficlight?cal     [<=>                                                      ]       0  --.-KB/s               trafficlight?callback=Webclimber     [ <=>                                                     ]       0  --.-KB/s    in 0s      
+
+2021-06-10 19:36:37 (0.00 B/s) - ‘trafficlight?callback=WebclimberTrafficlight.insertTrafficlight’ saved [0/0]
+
