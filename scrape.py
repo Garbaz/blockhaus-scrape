@@ -33,7 +33,9 @@ def get_freie_plaetze():
 while True:
     p = get_freie_plaetze()
     if p is not None:
+        o = f'{time.time()},{p}'
+        print(o)
         with open(OUT_FILE, 'a') as f:
-            print(f'{time.time()},{p}', file=f)
+            print(o, file=f)
 
     time.sleep(PERIOD)
