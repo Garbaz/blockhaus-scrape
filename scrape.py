@@ -13,18 +13,19 @@ def get_freie_plaetze():
     try:
         url = 'https://192.webclimber.de/de/trafficlight?callback=WebclimberTrafficlight.insertTrafficlight&key=nDhc9HyCw6XZzNe4QDpaSFg0QxmkfW43&hid=192&container=trafficlightContainer&type=2&area='
 
-        r = requests.get(url)
+        req = requests.get(url)
 
         # print(r.status_code)
 
-        s = BeautifulSoup(r.text, features="html.parser")
+        bs_parse = BeautifulSoup(req.text, features="html.parser")
 
-        status_text = s.find_all(class_='status_text')[0].contents[0]
+        status_text = bs_parse.find_all(class_='status_text')[0].contents[0]
 
         # freie Pl\u00e4tze 18
-        p = re.match('freie Pl\\\\u00e4tze (\\d*)', status_text).groups()[0]
+        plaetze = re.match('freie Pl\\\\u00e4tze (\\d*)', status_text).groups()[0]
 
-        return int(p)
+        return int(plaetze)
+
     except Exception as e:
         print(str(e), file=sys.stderr)
         return None
