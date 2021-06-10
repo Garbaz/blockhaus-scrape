@@ -8,6 +8,12 @@ import sys
 
 PERIOD = 600
 OUT_FILE = 'data.csv'
+LOG_FILE = 'scrape_log.txt'
+
+def dprint(*args,**nargs):
+    print(*args,**nargs)
+    nargs['file'] = None
+    print(*args,**nargs)
 
 
 def get_freie_plaetze():
@@ -28,18 +34,18 @@ def get_freie_plaetze():
         return int(plaetze)
 
     except Exception as e:
-        print(str(e), file=sys.stderr)
+        dprint(str(e), file=sys.stderr)
         return None
 
 
-print(f'\n\nBeginning scraping at {str(datetime.datetime.now())}', file=sys.stderr)
+dprint(f'\n\nBeginning scraping at {str(datetime.datetime.now())}...\n\n', file=sys.stderr)
 
 while True:
     p = get_freie_plaetze()
     if p is not None:
         o = f'{time.time()},{p}'
-        print(o)
+        # print(o)
         with open(OUT_FILE, 'a') as f:
-            print(o, file=f)
+            dprint(o, file=f)
 
     time.sleep(PERIOD)
