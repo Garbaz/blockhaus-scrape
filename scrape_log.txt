@@ -6,3 +6,7 @@ Traceback (most recent call last):
   File "scrape.py", line 35, in <module>
     print(f'{time.time()},{p}',file=f)
 io.UnsupportedOperation: not writable
+Traceback (most recent call last):
+  File "scrape.py", line 41, in <module>
+    time.sleep(PERIOD)
+KeyboardInterrupt
