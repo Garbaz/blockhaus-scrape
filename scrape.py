@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import time
+import datetime
 import sys
 
 PERIOD = 600
@@ -30,6 +31,8 @@ def get_freie_plaetze():
         print(str(e), file=sys.stderr)
         return None
 
+
+print(f'\n\nBeginning scraping at {str(datetime.datetime.now())}', file=sys.stderr)
 
 while True:
     p = get_freie_plaetze()
