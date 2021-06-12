@@ -37,7 +37,7 @@ def get_freie_plaetze():
         return None
 
 
-dprint(f'Scraping at {str(datetime.datetime.now())}:', file=sys.stderr)
+print(f'Scraping at {str(datetime.datetime.now())}:', file=sys.stderr)
 
 p = get_freie_plaetze()
 if p is not None:
