@@ -1,5 +1,5 @@
 from datetime import datetime, date, time, timedelta
-from matplotlib.dates import ConciseDateFormatter, DateFormatter
+from matplotlib.dates import DateFormatter
 import matplotlib.pyplot as plt
 import csv
 
@@ -23,10 +23,8 @@ def plot(d, s, formatter=None):
     plt.ylim(0, spots_max+10)
     plt.margins(0)
 
-    if formatter is None:
-        formatter = ConciseDateFormatter()
-
-    plt.gcf().axes[0].xaxis.set_major_formatter(formatter)
+    if formatter is not None:
+        plt.gcf().axes[0].xaxis.set_major_formatter(formatter)
 
     plt.plot(d, s)
 
