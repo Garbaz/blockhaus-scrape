@@ -1,16 +1,16 @@
-
-
 # **Blockhaus - Besucher Tracker**
+
+<br>
 
 # Heute
 ## *Heutiger Verlauf*
 ![today](today.svg)
-<br></br>
+<br>
 
 ## *Durchschnittlicher Verlauf für heutigen Wochentag*
 ![today_avg](today_avg.svg)
 
-<br></br>
+<br>
 
 # Woche
 
@@ -20,7 +20,7 @@
 ## *Durchschnittlicher Wochenverlauf*
 ![week_avg](week_avg.svg)
 
-<br></br>
+<br>
 
 # Wochentage
 
