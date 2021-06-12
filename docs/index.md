@@ -24,7 +24,7 @@
 
 # Wochentage
 
-### *Durchschnittlicher Tagesverlauf an einem...*
+### *(Durchschnittlicher Tagesverläufe)*
 
 #### **Montag**
 
