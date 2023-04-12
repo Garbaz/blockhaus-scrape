@@ -1,6 +1,6 @@
 # [**Blockhaus - Besucher Tracker**](https://github.com/Garbaz/blockhaus-scrape)
 
-<br>
+<!-- <br>
 
 # Heute
 ## *Heutiger Verlauf*
@@ -10,47 +10,47 @@
 ## *Durchschnittlicher Verlauf für heutigen Wochentag*
 ![today_avg](today_avg.svg)
 
-<br>
+<br> -->
 
-# Woche
+<!-- # Woche -->
 
-## *Verlauf der aktuellen Woche*
-![week](week.svg)
+<!-- ## *Verlauf der aktuellen Woche*
+![week](week.svg) -->
 
 ## *Durchschnittlicher Wochenverlauf*
 ![week_avg](week_avg.svg)
 
 <br>
 
-# Wochentage
+<!-- # Wochentage -->
 
-### *(Durchschnittlicher Tagesverläufe)*
+## *(Durchschnittlicher Tagesverläufe)*
 
-#### **Montag**
+### **Montag**
 
 ![Monday](Monday.svg)
 
-#### **Dienstag**
+### **Dienstag**
 
 ![Tuesday](Tuesday.svg)
 
-#### **Mittwoch**
+### **Mittwoch**
 
 ![Wednesday](Wednesday.svg)
 
-#### **Donnerstag**
+### **Donnerstag**
 
 ![Thursday](Thursday.svg)
 
-#### **Freitag**
+### **Freitag**
 
 ![Friday](Friday.svg)
 
-#### **Samstag**
+### **Samstag**
 
 ![Saturday](Saturday.svg)
 
-#### **Sonntag**
+### **Sonntag**
 
 ![Sunday](Sunday.svg)
 
