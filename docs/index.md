@@ -17,14 +17,15 @@
 <!-- ## *Verlauf der aktuellen Woche*
 ![week](week.svg) -->
 
-## *Durchschnittlicher Wochenverlauf*
+## Durchschnittlicher Wochenverlauf
+
 ![week_avg](week_avg.svg)
 
 <br>
 
 <!-- # Wochentage -->
 
-## *(Durchschnittlicher Tagesverläufe)*
+## Durchschnittliche Tagesverläufe
 
 ### **Montag**
 
